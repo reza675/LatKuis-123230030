@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-**Identitas:**
 - Nama: Reza Rasendriya Adi Putra
 - NIM: 123230030
 - Kelas: IF-E
+
