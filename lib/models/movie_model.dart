@@ -8,6 +8,7 @@ class MovieModel {
   String synopsis;
   String imgUrl;
   String movieUrl;
+    bool isSaved;
 
   MovieModel({
     required this.title,
@@ -19,6 +20,7 @@ class MovieModel {
     required this.synopsis,
     required this.imgUrl,
     required this.movieUrl,
+        this.isSaved = false,
   });
 }
 
