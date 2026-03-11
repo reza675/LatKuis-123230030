@@ -19,7 +19,6 @@ class _MovieListPageState extends State<MovieListPage> {
           "Welcome, ${widget.username}!",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.teal.shade300,
         centerTitle: false,
       ),
       backgroundColor: Colors.grey.shade50,
