@@ -72,11 +72,13 @@ class MovieDetail extends StatelessWidget {
                   const SizedBox(height: 12),
 
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      
                       const Icon(Icons.star, color: Colors.amber),
                       const SizedBox(width: 8),
                       Text(
-                        '${movie.rating}/10',
+                        'Rated ${movie.rating}/10',
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],

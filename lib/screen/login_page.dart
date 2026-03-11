@@ -21,7 +21,9 @@ class _LoginPageState extends State<LoginPage> {
       });
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => MovieListPage(username: usernameC.text)),
+        MaterialPageRoute(
+          builder: (context) => MovieListPage(username: usernameC.text),
+        ),
       );
     } else {
       setState(() {
@@ -37,26 +39,10 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   @override
-
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Login Page",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.blue.shade300,
-      ),
       body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Colors.blue.shade50, Colors.blue.shade100],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          ),
-        ),
-
+        color: Colors.white,
         child: Padding(
           padding: EdgeInsets.all(20),
           child: Column(
